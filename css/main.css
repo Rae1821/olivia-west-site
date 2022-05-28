@@ -322,6 +322,35 @@ input[type=button] {
 }
 
 
+
+/**** STYLE PROCESS SECTION ****/
+
+.style-process {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.style-process h2,
+h3 {
+  font-family: 'Alice', serif;
+}
+
+.full-process {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+.single-process {
+  background-color: lightgrey;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 10px 20px;
+  width: 75%;
+}
+
+
 /**** AUTHOR SECTION *****/
 
 figure {
